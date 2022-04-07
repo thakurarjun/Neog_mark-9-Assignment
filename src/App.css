@@ -1,6 +1,25 @@
 .App {
   text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
 }
+.button {
+  border-radius: 0.9rem;
+  padding: 1rem 1rem;
+  margin: 0rem 0rem 0rem 0rem;
+  cursor: pointer;
+}
+.li {
+  text-align: center;
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 90%;
+  margin: 1rem 0rem;
+  border-radius: 0.9rem;
+}
+
 
 .App-logo {
   height: 40vmin;
