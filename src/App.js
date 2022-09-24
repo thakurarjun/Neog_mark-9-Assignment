@@ -45,9 +45,7 @@ const booksDictionary = {
     },
   ],
 };
-
 const booksWeKnow = Object.keys(booksDictionary);
-
 function App() {
   const [selectedBook, setBookTab] = useState("javascript");
 
@@ -55,7 +53,6 @@ function App() {
     var bookActive = event.target.textContent;
     setBookTab(bookActive);
   }
-
   return (
     <div className="App">
       <h1>Good-Books</h1>
